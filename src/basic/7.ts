@@ -1,5 +1,5 @@
 type Page = {
-  [key: string]: any;
+  [key: string]: string | number | {} | [];
 };
 
 const page1: Page = {
